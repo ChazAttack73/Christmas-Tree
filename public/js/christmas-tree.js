@@ -6,7 +6,6 @@ $(function(){
   ;
   $(document.body).append( mainTreeBox );
 
-
   var treeStar = $( '<div>' );
     treeStar
       .addClass( 'treeStar')
@@ -14,20 +13,24 @@ $(function(){
   ;
   $( mainTreeBox ).append( treeStar );
 
-  var firstBranch = '0';
-    for ( var i = 0; i < 10; i++ ) {
+  var initialBranch = $( '<div>' );
+    initialBranch
+      .addClass( 'firstBranch')
+      .text( '0' )
+  ;
+  $( mainTreeBox ).append( initialBranch );
 
-      firstBranch += '00';
+    var firstBranch = '0';
+      for ( var i = 0; i < 10; i++ ) {
+        firstBranch += '00';
 
-      var treeBranches = $( '<div>' );
-        treeBranches
-          .addClass( 'treeBranches' )
-          .text( firstBranch )
-      ;
-      $( mainTreeBox ).append( treeBranches );
-      // $( treeBranches ).text( firstBranch += nextBranch );
-      // firstBranch = nextBranch;
-    }
+        var treeBranches = $( '<div>' );
+          treeBranches
+            .addClass( 'treeBranches' )
+            .text( firstBranch )
+        ;
+        $( mainTreeBox ).append( treeBranches );
+      }
 
   var treeStump = $( '<div>' );
     treeStump
