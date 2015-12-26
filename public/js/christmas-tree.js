@@ -15,7 +15,7 @@ $(function(){
 
   var initialBranch = $( '<div>' );
     initialBranch
-      .addClass( 'firstBranch')
+      .addClass( 'initialBranch')
       .text( '0' )
   ;
   $( mainTreeBox ).append( initialBranch );
