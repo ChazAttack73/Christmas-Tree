@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: black; }
+
+h1 {
+  color: white; }
+
+.mainTreeBox {
+  width: 500px;
+  border: 1px solid red;
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 2em; }
+
+.treeStar {
+  color: yellow;
+  align-self: center; }
+
+.firstBranch {
+  color: green;
+  align-self: center; }
+
+.treeBranches {
+  color: green;
+  align-self: center; }
+
+.treeStump {
+  color: brown;
+  align-self: center; }
