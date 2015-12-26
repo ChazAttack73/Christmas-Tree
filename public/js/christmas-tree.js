@@ -20,6 +20,13 @@ $(function(){
   ;
   $( mainTreeBox ).append( initialBranch );
 
+  var initialDeco = $( '<div>' );
+    initialDeco
+      .addClass( 'initialDeco')
+      .text( '*' )
+  ;
+  $( mainTreeBox ).append( initialDeco );
+
     var firstBranch = '0';
       for ( var i = 0; i < 10; i++ ) {
         firstBranch += '00';
@@ -35,7 +42,7 @@ $(function(){
   var treeStump = $( '<div>' );
     treeStump
       .addClass( 'treeStump' )
-      .text( '||' )
+      .text( '||||' )
   ;
   $( mainTreeBox ).append( treeStump );
 

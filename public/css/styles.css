@@ -12,7 +12,11 @@ h1 {
   border: 1px solid red;
   display: flex;
   flex-flow: column wrap;
-  font-size: 2em; }
+  font-size: 2em;
+  background: url(http://i.imgur.com/JcxXO.jpg);
+  background-size: cover;
+  background-position: -100px -100px;
+  background-repeat: no-repeat; }
 
 .treeStar {
   color: yellow;
@@ -20,6 +24,10 @@ h1 {
 
 .initialBranch {
   color: green;
+  align-self: center; }
+
+.initialDeco {
+  color: purple;
   align-self: center; }
 
 .treeBranches {
