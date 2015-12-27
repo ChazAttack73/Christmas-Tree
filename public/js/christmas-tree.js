@@ -48,13 +48,13 @@ $(function(){
 
     var startLeaves = '0';
     var startDeco = '*';
-    for( var j = 0; j < 2; j++ ) {
+    // for( var j = 0; j < 2; j++ ) {
     startLeaves = startLeaves += '00';
     startDeco = startDeco += '~*';
     $( treeLeaves ).append( startLeaves );
     $( startLeaves ).html( '<br/>' );
     $( treeDeco ).append( startDeco );
-    }
+    // }
   }
 
 
