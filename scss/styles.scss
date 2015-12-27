@@ -11,38 +11,43 @@ h1 {
 }
 
 .mainTreeBox {
-  width: 500px;
+  width: 525px;
   border: 1px solid red;
   display: flex;
   flex-flow: column wrap;
   font-size: 2em;
   background: url(http://i.imgur.com/JcxXO.jpg);
   background-size: cover;
-  background-position: -100px -100px;
+  background-position: -150px 0px;
   background-repeat: no-repeat;
+
 }
 
 .treeStar {
   color: yellow;
   align-self: center;
+  margin: -5px 0px;
 }
 
 .initialBranch {
-  color: green;
+  color: #00ff00;
   align-self: center;
+  margin: -5px 0px;
 }
 
 .initialDeco {
   color: purple;
   align-self: center;
+  margin: -5px 0px;
 }
 
 .treeBranches {
-  color: green;
+  color: #00ff00;
   align-self: center;
+  margin-top: -10px;
 }
 
 .treeStump {
-  color: brown;
+  color: #4d1900;
   align-self: center;
 }
