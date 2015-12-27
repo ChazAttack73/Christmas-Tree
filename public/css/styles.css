@@ -34,9 +34,16 @@ h1 {
   margin: -5px 0px; }
 
 .treeBranches {
+  border: 1px dashed red;
+  align-self: center; }
+
+.treeLeaves {
   color: #00ff00;
-  align-self: center;
-  margin-top: -10px; }
+  align-self: center; }
+
+.treeDeco {
+  color: purple;
+  align-self: center; }
 
 .treeStump {
   color: #4d1900;
